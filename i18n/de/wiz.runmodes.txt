@@ -1,0 +1,14 @@
+# -*- coding: utf-8, tab-width: 2 -*-
+
+s~^Invocation:~Aufruf:~i
+s~^Avail\S* run[ -]?modes:~Verfügbare Startmodi ("runmode"):~i
+
+/^help\b/{
+  t"Zeigt, was dieser Assistent kann.
+}
+
+/^deps\b/{
+  t"Installiert die gewünschte Edition ("stable" or "daily") von FreeCAD
+  t"aus dem PPA, plus alle zum Selberbauen nötigen Zutaten.
+}
+

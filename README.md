@@ -15,8 +15,8 @@ Fixing FreeCAD requires compiling it, and that was way more cumbersome
 than it should have been, so let's fix that meta-UX problem first.
 
 This project started as [PR 508][fcpr-508] because at the time I didn't
-think about where it should live, but as @kkremitzki pointed out, it's
-actually independent enough to live in its own repo.
+think about where it should live. After @kkremitzki pointed it out, it was
+easy to see that it's actually independent enough to live in its own repo.
 
 
 So how do I compile FreeCAD?
